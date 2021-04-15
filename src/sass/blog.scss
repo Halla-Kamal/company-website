@@ -1,0 +1,40 @@
+.banner-blog {
+    #banner-img {
+        background-image: url(../images/banner-blog.jpg);
+    }
+}
+
+.posts {
+    .search-box {
+        padding: 15px;
+        margin-top: 5px;
+        box-shadow: 0px 1px 1px 1px $custom-color;
+        border: 1px solid $custom-color;
+    }
+
+    .form-inline {
+        display: flex;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    .card {
+        .card-body {
+            .card-text {
+                white-space: nowrap; //منع النزول سطر ثاني 
+                overflow: hidden; //الإفاء بعد السطر الأول
+                text-overflow: ellipsis; //إضافة ثلاث نقاط في النهاية
+                color: $card-text-color;
+            }
+        }
+    }
+}
+
+.form-control {
+    &:focus {
+        border-color: $main-color !important;
+        box-shadow: none !important;
+    }  
+}
+
+// Blog details page 
