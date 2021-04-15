@@ -89,3 +89,13 @@
         background-color: #0077b0;
     }
 }
+
+// add blog page
+.add-blog {
+    label {
+        &:first-child {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }  
+}
